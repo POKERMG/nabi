@@ -55,7 +55,8 @@ Once Google Authentication is clicked you would need to enter your google email 
 
 Adding client details :
 
-![2018-08-02 4](https://user-images.githubusercontent.com/41096204/43567074-91c0ecce-95fe-11e8-8724-73b56ace9f3c.png)
+![2018-08-02 4 _li](https://user-images.githubusercontent.com/41096204/43567155-d22aa656-95fe-11e8-9734-7bfbf0c4c366.jpg)
+
 
 Logging out and entering with another administrators email :
 
