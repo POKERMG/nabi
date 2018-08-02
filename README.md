@@ -2,9 +2,11 @@
 
 Django-Web Application with G-Authenication and Testing with Docker Container
 
-# Used and Requirements :
+### Requirements :
 
-Python 3+
+Python 3+ | Django | PostgreSQL | Docker
+
+### Libraries :
 
 Django==2.1
 PyJWT==1.6.4
@@ -28,13 +30,13 @@ social-auth-core==1.7.0
 sqlparse==0.2.4
 urllib3==1.23
 
-# Pre-Setup
+### Pre-Setup :
 
 1) Ensure PostgreSQL is setup with a database running on your computer
 2) Please adjust the name and login, password details in settings.py file (scroll to databases and make adjusted changes)
 3) Install Docker on your computer 
 
-# Setup for Python and Django
+### Setup for Python and Django for running the application :
 
 1) Install and activate a 'ENV' environment 
 2) Open requirements.txt file for libraries and installation
