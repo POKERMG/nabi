@@ -60,5 +60,7 @@ Adding client details :
 
 Logging out and entering with another administrators email :
 
+![2018-08-02 9 _li](https://user-images.githubusercontent.com/41096204/43567313-570075a4-95ff-11e8-99b5-b3f59817d7f6.jpg)
 
+As the above image also states that only the administrator who added the client can delete or reedit the same client, other administrators can only view the client record.
 
