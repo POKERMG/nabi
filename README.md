@@ -66,3 +66,4 @@ As the above image also states that only the administrator who added the client 
 
 Also developed a file format for administrators to be recorded on the django admin :
 
+![2018-08-02 6 _li](https://user-images.githubusercontent.com/41096204/43567483-f0c8ae86-95ff-11e8-9515-f520c34b02b0.jpg)
