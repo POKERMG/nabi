@@ -67,3 +67,39 @@ As the above image also states that only the administrator who added the client 
 Also developed a file format for administrators to be recorded on the django admin :
 
 ![2018-08-02 6 _li](https://user-images.githubusercontent.com/41096204/43567483-f0c8ae86-95ff-11e8-9515-f520c34b02b0.jpg)
+
+
+### Requirements for Docker and Containter test :
+
+Step 1: Stop docker-compose Services
+
+Open Terminal inside Project Folder Where manage.py is located
+
+docker-compose down
+
+Step 1: Start docker-compose Services
+
+Open Terminal inside Project Folder Where manage.py is located
+
+docker-compose up -d
+
+Step 3: Run Django project
+
+### When you run this program 1st time you must make migrations
+### Only for 1st Time
+
+docker-compose run webpy python manage.py makemigrations
+docker-compose run webpy python manage.py migrate
+docker-compose run webpy python manage.py createsuperuser
+
+Every Time you want to run your programs
+
+docker-compose run webpy python manage.py runserver 0.0.0.0:8000
+
+Open this link in your Browser
+http://127.0.0.1:8000/
+Step 7: If Server Not Running Properly
+
+If your Server not Work Properly Again Use these Commands
+docker-compose down
+docker-compose up
