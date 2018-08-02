@@ -49,5 +49,9 @@ After running the server you would have the authentication screen appear:
 
 ![2018-07-30 1](https://user-images.githubusercontent.com/41096204/43560533-f616b1ea-95e0-11e8-80c8-6e5af30403c9.png)
 
+Once Google Authentication is clicked you would need to enter your google email :
+
+![2018-08-02 7 _li](https://user-images.githubusercontent.com/41096204/43566858-e501e3da-95fd-11e8-9410-550d3e7cf6f3.jpg)
+
 
 
