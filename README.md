@@ -89,17 +89,21 @@ Step 3: Run Django project
 ### Only for 1st Time
 
 docker-compose run webpy python manage.py makemigrations
+
 docker-compose run webpy python manage.py migrate
+
 docker-compose run webpy python manage.py createsuperuser
 
-Every Time you want to run your programs
+### Every Time you want to run your programs
 
-docker-compose run webpy python manage.py runserver 0.0.0.0:8000
+docker-compose run webpy python manage.py runserver 
 
-Open this link in your Browser
-http://127.0.0.1:8000/
-Step 7: If Server Not Running Properly
+Open this link in your Browser http://127.0.0.1:8000/
+
+### Step 4: If Server Not Running Properly
 
 If your Server not Work Properly Again Use these Commands
+
 docker-compose down
+
 docker-compose up
