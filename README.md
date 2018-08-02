@@ -32,6 +32,7 @@ urllib3==1.23
 
 1) Ensure PostgreSQL is setup with a database running on your computer
 2) Please adjust the name and login, password details in settings.py file (scroll to databases and make adjusted changes)
+3) Install Docker on your computer 
 
 # Setup for Python and Django
 
