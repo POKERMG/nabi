@@ -1,0 +1,20 @@
+{% extends 'home/base.html' %}
+{% block content %}
+<div class="container">
+      <div class="row">
+        <h3>Client {{client.id}}  </h3>
+        <p><strong>First name:</strong> {{client.first_name}}</p>
+        <p><strong>Last name: </strong> {{client.last_name}}</p>
+        <p><strong>IBAN: </strong> {{client.iban}}</p>
+      </div>
+      <div class="row">
+        <hr>
+        {% if user.id == client.admin.id %}
+        <a href="{% url 'edit_client' id=client.id %}" class="waves-effect waves-light btn">Edit</a>
+        {% else %}
+        <td><a class="btn disabled">Edit</a></td>
+        {% endif %}
+         || <a href="/" class="waves-effect waves-light btn">Back</a>
+      </div>
+    </div>
+{% endblock %}

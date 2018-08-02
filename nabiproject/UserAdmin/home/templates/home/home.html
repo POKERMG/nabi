@@ -1,0 +1,44 @@
+{% extends 'home/base.html' %}
+{% block content %}
+<div class="row">
+ <div class="col s12 m6 offset-m1">
+  <H3>Hi, {{ user.first_name }}!</H3>
+ </div>
+</div>
+<div class="container">
+    <h3>Clients</h3>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>First name</th>
+          <th>Last name</th>
+          <th>IBAN</th>
+          <th>View</th>
+          <th>Edit</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for client in clients %}
+        <tr>
+          <td>{{client.first_name}}</td>
+          <td>{{client.last_name}}</td>
+          <td>{{client.iban}}</td>
+          <td><a href="/show/{{client.id}}" class="waves-effect waves-light btn green">Show</a></td>
+          {% if user.id == client.admin.id %}
+          <td><a href="/edit/{{client.id}}" class="waves-effect waves-light btn blue">Edit</a></td>
+            {% else %}
+            <td><a class="btn disabled">Edit</a></td>
+          {% endif %}
+          {% if user.id == client.admin.id %}
+          <td><a href="/delete/{{client.id}}" class="waves-effect waves-light btn red">Remove</a></td>
+            {% else %}
+            <td><a class="btn disabled">Remove</a></td>
+          {% endif %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <a href="{% url 'new_client' %}" class="waves-effect waves-light btn">Add a new client</a>
+  </div>
+{% endblock %}
