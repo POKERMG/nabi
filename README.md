@@ -64,3 +64,5 @@ Logging out and entering with another administrators email :
 
 As the above image also states that only the administrator who added the client can delete or reedit the same client, other administrators can only view the client record.
 
+Also developed a file format for administrators to be recorded on the django admin :
+
