@@ -92,7 +92,9 @@ Also developed a file format for administrators to be recorded on the django adm
 
 ![ubuntuinstallation](https://user-images.githubusercontent.com/41096204/43659622-8ef0b984-972a-11e8-8fa5-ef0ad010ba5b.png)
 
-After installation of Virtual Box and Download an Ubuntu Image File.
+After installation of Virtual Box and Download an Ubuntu Image file which you wish to run your system with.
+
+After downloading you can setup to run your image file to VB and create a space within your HD to enable you to use variety of applications and tools within the VB environment.
 
 ### Open terminal window within ubunto graphic user interface and install below
 
