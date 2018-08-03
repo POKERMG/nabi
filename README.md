@@ -68,8 +68,11 @@ Also developed a file format for administrators to be recorded on the django adm
 
 ![2018-08-02 6 _li](https://user-images.githubusercontent.com/41096204/43567483-f0c8ae86-95ff-11e8-9515-f520c34b02b0.jpg)
 
+### Setup Virtual Box Installing Ubuntu or Any other System you wish to install :
 
-### Requirements for Docker and Containter test :
+After installation of VB and System (Ubuntu) following the instructions below
+
+### Requirements for Docker and Containter test : 
 
 Step 1: Stop docker-compose Services
 
