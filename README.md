@@ -72,7 +72,37 @@ Also developed a file format for administrators to be recorded on the django adm
 
 After installation of VB and System (Ubuntu) following the instructions below
 
-### Requirements for Docker and Containter test : 
+1) Install Docker
+wget -qO- https://get.docker.com/ | sh
+
+2) Permisson for all users to use docker
+sudo usermod -aG docker $(whoami)
+
+3) Install pip forpython 3
+sudo apt-get install python3-pip -y
+
+4) Install docker-compose
+pip3 install docker-compose
+
+5) Run docker-compose services
+Open Terminal project/folder where manage.py is located then type
+
+docker-compose up
+docker-compose up -d
+
+6) Run Django project
+# Only run the below the first time ( you must also make migrations)
+
+docker-compose run web python3 manange.py makemigrations 
+docker-compose run web python3 manage.py migrate
+docker-compose run web python3 manage.py createsuperuser
+
+7) Everytime you wish to run your app
+
+docker-compose run web python3 manage.py runserver
+open link in your browser : http://127.0.0.1:8000/
+
+### Requirements for Docker running with Windows/Commandline or IDE : 
 
 Step 1: Stop docker-compose Services
 
