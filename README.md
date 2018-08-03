@@ -124,6 +124,7 @@ docker-compose down
 Open Terminal inside Project Folder Where manage.py is located
 
 docker-compose up -d
+
 3) Run Django project
 
 ### When you run this program 1st time you must make migrations
