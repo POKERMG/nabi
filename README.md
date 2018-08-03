@@ -118,8 +118,8 @@ docker-compose up -d
 
 Step 3: Run Django project
 
-### When you run this program 1st time you must make migrations
-### Only for 1st Time
+#### When you run this program 1st time you must make migrations
+#### Only for 1st Time
 
 docker-compose run webpy python manage.py makemigrations
 
