@@ -113,19 +113,18 @@ open link in your browser : http://127.0.0.1:8000/
 
 ### Requirements for Docker running with Windows/Commandline or IDE : 
 
-Step 1: Stop docker-compose Services
+1) Stop docker-compose Services
 
 Open Terminal inside Project Folder Where manage.py is located
 
 docker-compose down
 
-Step 1: Start docker-compose Services
+2) Start docker-compose Services
 
 Open Terminal inside Project Folder Where manage.py is located
 
 docker-compose up -d
-
-Step 3: Run Django project
+3) Run Django project
 
 ### When you run this program 1st time you must make migrations
 ### Only for 1st Time
@@ -136,13 +135,13 @@ docker-compose run webpy python manage.py migrate
 
 docker-compose run webpy python manage.py createsuperuser
 
-### Every Time you want to run your programs
+### Every Time you want to run your apps
 
 docker-compose run webpy python manage.py runserver 
 
 Open this link in your Browser http://127.0.0.1:8000/
 
-### Step 4: If Server Not Running Properly
+4) If Server Not Running Properly
 
 If your Server not Work Properly Again Use these Commands
 
