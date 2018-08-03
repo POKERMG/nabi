@@ -94,7 +94,7 @@ Also developed a file format for administrators to be recorded on the django adm
 
 After installation of Virtual Box and Download an Ubuntu Image File.
 
-### Open termnial windows and install below
+### Open terminal window within ubunto graphic user interface and install below
 
 1) Install Docker
 
