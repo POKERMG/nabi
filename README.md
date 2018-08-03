@@ -88,11 +88,13 @@ Also developed a file format for administrators to be recorded on the django adm
 
 ![2018-08-02 6 _li](https://user-images.githubusercontent.com/41096204/43567483-f0c8ae86-95ff-11e8-9515-f520c34b02b0.jpg)
 
-### Setup Virtual Box Installing Ubuntu or Any other System you wish to install :
+### Setup Virtual Box Installing Ubuntu with graphical user interface/terminal or Any other System you wish to install :
+
+![ubuntuinstallation](https://user-images.githubusercontent.com/41096204/43659622-8ef0b984-972a-11e8-8fa5-ef0ad010ba5b.png)
 
 After installation of Virtual Box and Download an Ubuntu Image File.
 
-
+### Open termnial windows and install below
 
 1) Install Docker
 
