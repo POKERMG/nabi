@@ -90,7 +90,9 @@ Also developed a file format for administrators to be recorded on the django adm
 
 ### Setup Virtual Box Installing Ubuntu or Any other System you wish to install :
 
-After installation of VB and System (Ubuntu) following the instructions below
+After installation of Virtual Box and Download an Ubuntu Image File.
+
+
 
 1) Install Docker
 
