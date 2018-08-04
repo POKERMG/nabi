@@ -119,6 +119,9 @@ Open Terminal project/folder where manage.py is located then type
 
 docker-compose up
 
+![docker_compose_up](https://user-images.githubusercontent.com/41096204/43679685-a84a5c6e-97f7-11e8-88a8-869d7dff9603.png)
+
+
 docker-compose up -d
 
 6) Run Django project
