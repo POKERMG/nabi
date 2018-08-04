@@ -127,15 +127,15 @@ docker-compose up -d
 
 ### Only run the below the first time ( you must also make migrations)
 
-docker-compose run web python3 manange.py makemigrations 
+docker-compose run webpy python3 manange.py makemigrations 
 
-docker-compose run web python3 manage.py migrate
+docker-compose run webpy python3 manage.py migrate
 
-docker-compose run web python3 manage.py createsuperuser
+docker-compose run webpy python3 manage.py createsuperuser
 
 7) Everytime you wish to run your app
 
-docker-compose run web python3 manage.py runserver
+docker-compose run webpy python3 manage.py runserver
 
 ![nabi_admin](https://user-images.githubusercontent.com/41096204/43679705-28d6ea00-97f8-11e8-888e-ace5e586f138.png)
 
