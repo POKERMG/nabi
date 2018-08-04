@@ -4,7 +4,7 @@ Django-Web Application with G-Authenication and Testing with Docker Container
 
 ### Requirements :
 
-Python 3+ | Django | PostgreSQL | Docker
+Python 3+ | Django | PostgreSQL | Docker | Windows IDE | ubuntu
 
 ### Libraries :
 
