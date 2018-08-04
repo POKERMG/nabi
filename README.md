@@ -141,6 +141,10 @@ docker-compose run web python3 manage.py runserver
 
 open link in your browser : http://127.0.0.1:8000/
 
+![admin](https://user-images.githubusercontent.com/41096204/43679721-53fca54e-97f8-11e8-8f2a-5485d6a78c30.png)
+
+administration area of app
+
 ### Requirements for Docker running with Windows/Commandline or IDE : 
 
 1) Stop docker-compose Services
