@@ -145,7 +145,7 @@ open link in your browser : http://127.0.0.1:8000/
 
 administration area of app
 
-
+![inkedadmin_li](https://user-images.githubusercontent.com/41096204/43679762-18a46008-97f9-11e8-8eb3-eb178483170d.jpg)
 
 Django admin 
 
