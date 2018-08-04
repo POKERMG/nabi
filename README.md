@@ -121,7 +121,6 @@ docker-compose up
 
 ![docker_compose_up](https://user-images.githubusercontent.com/41096204/43679685-a84a5c6e-97f7-11e8-88a8-869d7dff9603.png)
 
-
 docker-compose up -d
 
 6) Run Django project
@@ -137,6 +136,8 @@ docker-compose run web python3 manage.py createsuperuser
 7) Everytime you wish to run your app
 
 docker-compose run web python3 manage.py runserver
+
+![nabi_admin](https://user-images.githubusercontent.com/41096204/43679705-28d6ea00-97f8-11e8-888e-ace5e586f138.png)
 
 open link in your browser : http://127.0.0.1:8000/
 
