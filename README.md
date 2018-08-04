@@ -149,6 +149,10 @@ administration area of app
 
 Django admin 
 
+8) Shutting down container by docker-compose down
+
+
+
 ### Also note that settings.py needs to changed for the specific database used, and port; localhost should be the same name as per docker-compose.yml file
 
 ### Requirements for Docker running with Windows/Commandline or IDE : 
