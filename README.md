@@ -151,7 +151,7 @@ Django admin
 
 8) Shutting down container by docker-compose down
 
-
+![docker-compose-down](https://user-images.githubusercontent.com/41096204/43681337-64a7f79c-981e-11e8-9807-3c6446d31de0.png)
 
 ### Also note that settings.py needs to changed for the specific database used, and port; localhost should be the same name as per docker-compose.yml file
 
