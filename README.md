@@ -149,6 +149,8 @@ administration area of app
 
 Django admin 
 
+### Also note that settings.py needs to changed for the specific database used, and port; localhost should be the same name as per docker-compose.yml file
+
 ### Requirements for Docker running with Windows/Commandline or IDE : 
 
 1) Stop docker-compose Services
